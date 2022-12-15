@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <style>
+        body{
+            padding-top: 70px;
+            /* padding-bottom: 70px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">로고</a>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav ">
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">메뉴1<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                            </ul> 
+                        </li>
+
+                        <li>
+                            <a href="#" data-toggle="dropdown">메뉴2<span class="caret"></span></a> 
+                            <ul class="dropdown-menu">
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" data-toggle="dropdown">메뉴3<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                                <li><a href="#">서브메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="검색">
+                        </div>
+                        <button type="submit" class="btn btn-default">submit</button>
+                    </form>
+                </div>           
+            </div>
+        </nav>
+        <article>
+            <p>버튼 그룹
+                일련의 버튼들을 버튼 그룹으로 같이 한줄에 모으세요. 버튼 플러그인 으로 라디오와 체크박스처럼 사용할 수도 있습니다.
+                버튼 그룹안의 툴팁 & 팝오버 특별한 설정이 필요합니다
+
+                <p>.btn-group 요소에 툴팁이나 팝오버를 사용할 때, 당신은 원치않는 부작용(요소가 넓어진다거나 모서리가 없어진다거나)을 피하기 위해 옵션 container: 'body' 을 명시해야 할 것입니다.
+                정확한 role 을 부여하고 라벨을 제공하세요</p>
+
+                <p>보조 공학을 위해 그룹화된 일련의 버튼들을 전달하기 위해서, 적절한 role 속성이 제공되어져야 합니다. 버튼 그룹을 위해, 이것은 role="group" 이 될 수 있습니다. 툴바는 role="toolbar" 을 가져야 합니다.
+                한가지 예외는 하나의 콘트롤 밖에 없는 그룹이나 드롭다운입니다. 예를 들면 요소와 함께하는 양쪽정렬된 버튼 그룹
+                게다, 대부분의 보조 공학은 올바른 role 속성이 존재함에도 불구하고, 그룹과 툴바는 명확하게 라벨이 주어져야 합니다. 여기에 제공된 예제에서, 우리는 aria-label 을 사용했습니다만 aria-labelledby 같은 대안도 사용될 수 있습니다.</p>
+            </p>
+        </article>
+    </div>
+    
+
+
+
+    
+   <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>
